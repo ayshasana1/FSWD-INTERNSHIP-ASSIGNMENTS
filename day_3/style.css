@@ -1,0 +1,50 @@
+/* selectors:{
+    color: red;
+} */
+
+/* element selectore-tags->elements */
+
+h1{
+    color: red;
+}
+
+
+/* class selector - reusable(.) */
+.highlight{
+    background-color: yellow;
+    color: blue;
+}
+
+
+/* id selector unique(#)  */
+#main{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+/* group selector  */
+h1,p{
+    font-family: Arial, sans-serif;
+    color: purple;
+}
+
+.color{
+    color: palegreen;
+    /* color: rgb(255, 0, 0); */
+        /* color: #000; */
+}
+
+/* fonts */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* text alignment  */
+h1{
+    text-align: center;
+}
+
+

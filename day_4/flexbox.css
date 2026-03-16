@@ -1,0 +1,65 @@
+.box{
+    background: steelblue;
+    color: white;
+    padding: 40px;
+    margin: 10px;
+}
+
+/* basic flex 
+
+.container{
+    display: flex;
+}
+*/
+
+/* flex direction -> row, column, row-reverse, column-reverse 
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+*/
+
+/* justify-content -> flex start, flex end, center, space-around, space-between,  space-evenly 
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+/* align-items -> flex-start, flex-end, center, stretch, baseline 
+.container{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+justify-content -> conrol horizontal 
+alignment align-items -> control vertical alignment
+*/
+
+/* Gap 
+.container{
+    display: flex;
+    gap: 50px;
+}
+*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Responsive Website */
+*{
+    /* width: 1200px; */
+    max-width: 1200px;
+}
+
+@media(max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+}
