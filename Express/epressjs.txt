@@ -1,0 +1,30 @@
+what is Express js?
+is a minimal and fleible node js framework used to build: web server, API, backend application
+
+
+
+
+routes decide how server responds to client request
+/ - homepage
+/about - about page
+
+MIDDLEWARE:
+is a function that runs before the request reaches the routr
+ex:
+logging
+authentication
+valiadtion
+error handling
+
+flow:
+request->middleware->route->response
+
+
+what is routr?
+how a server responds to a specific url request
+it connects url path+http method to a function
+route= url endpoint which handles request
+
+what is router?
+mini epress application which is used to organize multiple routes
+instead of writing all routes in one file, we group related routes inside one router
