@@ -1,0 +1,29 @@
+API - Application Programming Interface
+
+what is REST API?
+Representational State Transfer
+it allows communication b/w:
+frontend <-> backend
+app <-> server
+
+ex:
+swiggy -> request -> server -> response-> foodlist
+
+HTTP methods - core REST API's:
+GET - fetch data - get all user
+POST - to create data - add new users
+PUT - update data - update existing user
+DELETE - remove data - delete user
+
+why status code?
+200-success
+201-created
+400-bad request
+404-not found
+
+what is Postman?
+A post is a tool(Application used to test API's easily without any frontend code)
+
+what is patch method?
+patch method is used to partially update existing data in a resource
+        
