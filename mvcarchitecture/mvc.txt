@@ -1,0 +1,91 @@
+if i build simple student management app API using MVC
+
+features:
+get all students
+get students by ID
+add new student
+handle errors properly
+log server actions
+
+what is MVC?
+Model View Controller
+it is a way to organizw the code so that project is clean, scalable, easy to debug, easy to maintain
+
+why MVC needed?
+to avoid bad code structure we need MVC
+
+componentsModel - handles data
+ex:
+fetching students 
+storing students details
+updating database
+
+it works with:
+database, arras, files, external API's
+
+model = data layer
+
+View - handles what user sees
+
+in frontend app:
+html pages
+EJS templates
+react UI
+
+in API progects:
+JSON response can be considered output View
+
+view = presentation layer
+
+Controller - acts as middle person b/w model and view
+
+it:
+receives request
+calls model
+processes logic
+sends respinse
+
+controller = brain / request handler
+===========================================
+
+MVC flow:
+
+suppose user hits: GET/students
+
+1.request comes to route
+2.route calls controller 
+3.Controller as model for data
+4.model return data
+5.controller sends response as JSON
+
+==============================================
+Error handling"
+what is error handling?
+when something goes wrong the app should not crash badly
+
+e:
+students not found, missing data, invalid input, server issue
+without error handling:
+server may stop, confusing msg may come, debugging becomes hard
+
+
+types of error in node/express:
+1.syntax error - mistakes in code writing
+2. runtime erroe - error while app is running
+3. logical error - app runs but gives wrong output
+4. custom application error - "student not found"   
+
+==========================
+what is logging?
+recording important application events
+ex:
+server started, request received, error occured, user logged in , API called
+
+why logging is important?
+bcz it helps us:
+debug issue, track request , help us monitor app behaviour, understand the failure
+
+types of logs:
+info log -> normal activity
+warning logs -> inusual but managable activity
+error logs -> something failed
