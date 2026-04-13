@@ -1,0 +1,7 @@
+Authentication = who are you?
+Authorization = what can you access
+
+email: sana123@gmail.com
+password: "12345"  ❌
+
+solution: hashing(using bcrypt)
